@@ -1,0 +1,12 @@
+#canvas{
+    height: 80vh;
+    width: 80vh;
+    display: grid;
+    grid-template-columns:repeat(16,auto);
+    background-color: aqua;
+    gap: 1px;
+}
+
+.box{
+    background-color: yellow;
+}
