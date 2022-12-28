@@ -1,9 +1,14 @@
-const canvas = document.getElementById("canvas")
-for(let i = 0; i < (16 *16); i++){
-    canvas.appendChild(document.createElement("div"));
-}
+const canvas = document.getElementById("canvas");
+let children;
 
-let children = Array.from(canvas.children)
-children.forEach((child)=>{
-    child.classList.add("box")
-})
+function createGrid(length){
+    children.remove
+    for(let i = 0; i < (length * length); i++){
+        canvas.appendChild(document.createElement("div"));
+    }
+
+    children = Array.from(canvas.children)
+    children.forEach((child)=>{
+        child.classList.add("box")
+    })
+}
